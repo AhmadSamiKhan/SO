@@ -81,7 +81,7 @@ if [[ $x -le 1 ]]
 then
   echo -e "$BGre The server is fully Optimized. If you are still facing issues, try contacting on seat senior $EndCOLOR"
  else
-  read -p $'\e[0;31m The server is not fully Optimized. Do you wish to run the Optimizations script? [y/n]' answer
+  read -p $'\e[0;31m The server is not fully Optimized. Do you wish to run the Optimizations script? [y/n] \n' answer
   	if [[ $answer = y ]] ; then
   		curl -s  https://raw.githubusercontent.com/AhmadSamiKhan/SO/main/Changes.sh | bash
 fi
