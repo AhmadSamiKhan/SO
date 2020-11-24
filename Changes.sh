@@ -2,7 +2,7 @@
 
 #------IMP variables used------#
 PHP_VERSION=$(php --version | head -n 1 | cut -d " " -f 2 | cut -c 1,2,3)
-DB_ENGINE=$(cat /etc/ansible/facts.d/packages.fact | egrep -i '(mysql|mariadb)' | cut -d= -f1)
+DB_ENGINE=$(cat /etc/ansible/facts.d/packages.fact | egrep -i '(mysql=5|mariadb=10)' | cut -d= -f1)
 x=1
 
 #------COLOR & Design variables used------#
