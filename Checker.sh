@@ -27,7 +27,7 @@ F="..................................................................."
 
 #------FILES variables used------#
 MARIADB_CONF="/etc/mysql/conf.d/cw_mariadb_customization.cnf"
-MYSQL_CONF="/etc/mysql/conf.d/cw_customization.cnf"
+MYSQL_CONF="/etc/mysql/conf.d/ccw_customization.cnf"
 KERNEL_CONF="/etc/sysctl.d/99-cw_customization.conf"
 APACHE_CONF="/etc/apache2/extras/mpm_event.conf"
 FPM_CONF="/etc/php.confs/fpm/extras/cw_customization.conf"
