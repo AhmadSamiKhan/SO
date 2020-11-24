@@ -224,7 +224,7 @@ echo -e "$E\n"
 
         if  [[ $DB_ENGINE == "mariadb" &&  -f "$MARIADB_CONF" ]]; then
                 echo -e "MariaDB Settings $BGre ----- OPTIMIZED. $EndCOLOR"
-        elif [[ $DB_ENGINE == "mysql" &&  -f "$mysql_conf" ]]; then
+        elif [[ $DB_ENGINE == "mysql" &&  -f "$MYSQL_CONF" ]]; then
                 echo -e "Mysql Settings $BGre ----- OPTIMIZED. $EndCOLOR"
         else 
         		echo -e "Mysql/MariaDB Settings $BRed ----- NOT OPTIMIZED. $EndCOLOR"
